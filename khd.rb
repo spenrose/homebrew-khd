@@ -3,6 +3,7 @@ class Khd < Formula
   homepage "https://github.com/koekeishiya/khd"
   url "https://github.com/koekeishiya/khd/releases/download/v1.0.1/Khd-1.0.1.zip"
   sha256 "dc88f8a5fc4edeae1d829820ab3e01d50096e7753aa7e1a3411f1f246f47092f"
+  head "https://github.com/koekeishiya/khd.git"
 
   def install
     bin.install "khd"
